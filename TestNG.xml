@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Smoke Suite" preserve-order="true" >
+
+    <test name="smoke">
+
+        <classes>
+            <class name="VerifyLoginFunctionality"/>
+            <class name="VerifyAddingMedicinetoCartFunctionality"/>
+            <class name="FindADoctor"/>
+
+        </classes>
+
+    </test>
+
+</suite>
